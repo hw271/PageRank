@@ -26,7 +26,9 @@ Run following command on a spark cluster, it will save the wiki dump to HDFS.
 You need mvn to compile the packge, and you will need common-1.0.1.jar under target directory.
 
 > git clone https://github.com/sryza/aas.git
+
 > cd aas
+
 > mvn package
 
 ###### 2.2 cloud9 git hub repo
