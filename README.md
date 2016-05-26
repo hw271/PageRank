@@ -31,11 +31,14 @@ You need mvn to compile the packge, and you will need common-1.0.1.jar under tar
 
 > mvn package
 
+
 ###### 2.2 cloud9 git hub repo
 You need mvn to compile the package and you will need cloud9-2.0.2-SNAPSHOT-fatjar.jar under target directory.
  
 > git clone git+ssh://git@github.com/lintool/Cloud9.git
+
 > cd Cloud9
+
 > mvn package
 
 ###### 3.a start spark shell on spark cluster master node, you can copy the *.shell command into shell to run it.
