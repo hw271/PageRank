@@ -36,17 +36,23 @@ You need mvn to compile the package and you will need cloud9-2.0.2-SNAPSHOT-fatj
 > cd Cloud9
 > mvn package
 
-###### 3.a start spark shell on spark cluster master node, you can copy the *.shell command into shell to run it
+###### 3.a start spark shell on spark cluster master node, you can copy the *.shell command into shell to run it.
+
 > spark/bin/spark-shell --jars /mnt/wangs/common-1.0.1.jar,/mnt/wangs/cloud9-2.0.2-SNAPSHOT-fatjar.jar
 
 ###### 3.b alternatively, you can compile the program into a jar and run it on the cluster.
 ###### 3.b.1 compile on machine with sbt installed
+
 > sbt assembly
+
 ###### 3.b.2 run the script on the cluster, it takes hours to run every thing
+
 > sh /path/to/run.sh
 
 #### 4. once standard page rank and topic page rank results are saved, we can query on spark shell
+
 > spark-shell
+
 check Query.scala.shell for commands
 
 
