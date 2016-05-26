@@ -4,10 +4,10 @@ This is a project implementing Google's PageRank algorithm on **_Spark_**, progr
 
 The project contains four subprojects: 
 
-1. **Preprocess**: We first extract all the pages from the dump and conduct some text preprocessing.
-2. **Filter**:We filter stubs, redirects and disambiguation pages.
-3. **PageRank**: We implement the PageRank algorithm in this subproject.
-4. **Domain-Specific PageRank**: We implement domain specific pagerank algorithm for two domains: Football, and Georgetown University, respectively. 
+1. **Preprocess**: extract all the pages from the dump and conduct some text preprocessing.
+2. **Filter**:filter stubs, redirects and disambiguation pages.
+3. **PageRank**: implement the PageRank algorithm.
+4. **Domain-Specific PageRank**: implement domain specific pagerank algorithm for two domains: Football, and Georgetown University, respectively. 
 
 
 
