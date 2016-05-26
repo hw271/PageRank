@@ -47,14 +47,14 @@ You need mvn to compile the package and you will need cloud9-2.0.2-SNAPSHOT-fatj
 
 ##4. once standard page rank and topic page rank results are saved, we can query on spark shell
 > spark-shell
-# check Query.scala.shell for commands
+check Query.scala.shell for commands
 
 
 
 #Pratical Issues
 
 ##1. Size of data
-# there are more than 15 million pages in the wiki dump, and more than 3 millions are actual article pages. it is more efficient to select articles only for the project.
+There are more than 15 million pages in the wiki dump, and more than 3 millions are actual article pages. it is more efficient to select articles only for the project.
 
 ##2. Data filtering
 If we only select articles, it is better only include only links among articles only
